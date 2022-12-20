@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Palanquin:wght@300&display=swap');
+ body
+{
+  height: 100%;
+  background-image:url("https://images.unsplash.com/photo-1530293959042-0aac487c21e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMGFuZCUyMHdoaXRlfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+	background-size: cover;
+	background-position:center;
+    color:black !important;
+}
+
+
+
+
+
+.header
+{
+	color: black;
+    font-family:balsamiq sans;
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+
+#room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+   font-family: balsamiq sans;
+}
+
+
+#logout
+{
+   
+    font-size: 25px; 
+    float: right;
+   
+}
+
+
+#output
+{
+	padding: 10px; 
+    width:80%;
+    background: rgba(255,255,255,0.8);
+    border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: black;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+
+img{
+	border-radius: 50px;
+}
+
+label{
+    font-family: palanquin;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: palanquin;
+    font-size: 25px;
+}
+    
+#add_room{
+    background-color:rgb(99, 185, 235);
+    width:167px;
+    height:42px;
+    margin-top:20px;
+    font-size:20px;
+    font-family:balsamiq sans;
+    border-radius:10px;
+    box-shadow: none;
+    border-style: dotted;
+     border-color: black;
+}
+

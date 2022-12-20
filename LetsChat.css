@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Palanquin:wght@300&display=swap');
+body{
+    background-image: url("https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg");
+   background-size: cover;
+    font-family:tahoma;
+}
+
+.login_div
+{
+	background-color: white;
+    opacity: 0.9;
+    margin-top: 80px;
+    padding:20px;
+    border-radius:30px;
+    border-style:dotted;
+    width:497px;
+}
+
+#logo{
+    width:100px;
+    height:100px;
+}
+
+h1{
+    font-size:70px;
+    font-family: balsamiq sans;
+}
+
+label{
+    font-family: balsamiq sans;
+font-size: 27px;
+font-weight: bold;
+}
+
+h3 {
+    font-style: italic;
+    font-family: palanquin;
+    font-size: 25px;
+}
+
+#Login_button{
+    background-color:rgb(144, 200, 233);
+    width:170px;
+    height:42px;
+    margin-top:20px;
+    font-size:23px;
+    font-family:balsamiq sans;
+    border-radius:10px;
+    box-shadow: none;
+}
+
+#Login_button:hover{
+    background-color:rgb(109, 184, 228);
+    cursor:pointer;
+}
+
+#username{
+   height:29px; 
+   font-family:palanquin;
+   font-size:18px;
+border-radius: 5px;
+border-width: thin;
+border-color: rgb(21, 160, 240);
+}
+
+img {
+    height: 110px;
+}
